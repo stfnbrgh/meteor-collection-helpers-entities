@@ -12,7 +12,7 @@ Package.describe({
 
 Package.onUse(function (api) {
     api.versionsFrom('1.1.0.2');
-    api.use("stfnbrgh:nested-collection-helpers");
+    api.use("stfnbrgh:nested-collection-helpers@0.0.2");
     api.addFiles('collection-helpers-entities.js');
     api.export("CollectionHelpersEntities");
 });
